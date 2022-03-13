@@ -1,0 +1,25 @@
+/* Classic  way for float  */
+/* .parent .child {
+    float: right;
+} */
+
+.pull-left {
+    float: right;
+}
+
+.pull-right {
+    float: left;
+}
+
+/* Classic Way  For  text-align  */
+p.test {
+    /* text-align: left; */
+}
+
+.text-right {
+    text-align: left;
+}
+
+.text-left {
+    text-align: right;
+}

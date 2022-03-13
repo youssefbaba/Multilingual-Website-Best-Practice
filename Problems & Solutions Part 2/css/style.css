@@ -1,0 +1,31 @@
+/* Problems And Solution Part 2 */
+/* 
+-- padding and margin  left + right  better than one direction 
+    - if  element not taking 100%  from parent width 
+-- don't forget  page direction attribute dir="rtl"  all block element depend on it 
+-- Highlight what you will edit soon
+-- Make The Direction  Edite in same time  
+
+*/
+
+
+div {
+    background-color: #333;
+    color: #fff;
+}
+
+div h3 {
+    /* Reset Margin */
+    margin: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+    /* Need Edit In Rtl After finiched English version  */
+    /* property-1:value; */
+    /* property-2:value; */
+
+
+    /* In same Time */
+    left: 0;
+}

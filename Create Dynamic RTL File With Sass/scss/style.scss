@@ -1,0 +1,27 @@
+// $siteLanguague:English;
+$siteLanguague:Arabic;
+$float:left;
+$textAlign:left;
+$direction : ltr;
+
+@if ($siteLanguague==Arabic) {
+    $float: right;
+    $textAlign: right;
+    $direction: rtl;
+
+    .first-div {
+        direction: rtl;
+        padding-left: 0;
+        padding-right: 10px;
+    }
+}
+
+.first-div {
+    background-color: #ddd;
+    width: 60%;
+    height: 100px;
+    line-height: 100px;
+    padding-left: 10px;
+    margin: 50px;
+    float: $float;
+}

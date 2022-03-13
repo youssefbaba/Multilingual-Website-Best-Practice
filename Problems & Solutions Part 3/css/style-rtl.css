@@ -1,0 +1,38 @@
+.parent .child {
+    float: right;
+}
+
+
+.tags .tag {
+    border-width: 0 3px 0 0;
+}
+
+/* Bad Practice  */
+header nav ul {}
+
+.landing h1 {}
+
+header {}
+
+
+
+/* Best Practice  */
+
+/* Start Header */
+header {
+    /* Css Code  Changed */
+}
+
+.landing h1 {
+    /* Css Code Changed */
+}
+
+/* End Header */
+
+/* Start Landing */
+
+.landing h1 {
+    /* Css Code  Changed*/
+}
+
+/* End Landing */

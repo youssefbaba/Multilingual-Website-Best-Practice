@@ -1,0 +1,39 @@
+/* Problems And Solution Part 4 */
+/* 
+--   Consider Word length when specify  element width 
+--   Don't Destroy Nesting when creating rtl file 
+--   Don't use element that need to change  like arrows ( font awesome) use pseudo element 
+*/
+
+div h3 {
+    /* Reset Margin */
+    margin: 0;
+    left: 0;
+}
+
+.parent .child {
+    background-color: #ddd;
+    width: 25%;
+    height: 100px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+span {
+    display: inline-block;
+    background-color: red;
+    color: #fff;
+    /* width: 50px; */
+    text-align: center;
+    padding: 5px 10px;
+}
+
+span::after {
+    content: "\f053";
+    font: var(--fa-font-solid);
+    color: #333;
+}

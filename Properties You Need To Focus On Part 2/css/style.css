@@ -1,0 +1,36 @@
+/*  Properties You Need To Focus on  Part 2 */
+/* 
+--- Box-Shadow
+--- float 
+--- tranform:rotate 
+--- text-align 
+--- position 
+
+*/
+
+div h3 {
+    /* Reset Margin */
+    margin: 0;
+    left: 0;
+}
+
+.first-div,
+.second-div,
+.third-div {
+    background-color: #ddd;
+    width: 60%;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 20px auto;
+    /* margin-left: auto; */
+    /* border-radius: 0 20px 20px 0; */
+    box-shadow: 10px 10px 10px #ccc;
+}
+
+.second-div {
+    transform: rotate(20deg);
+    position: absolute;
+    top: 300px;
+    left: 40px;
+}

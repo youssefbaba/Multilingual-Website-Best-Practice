@@ -1,0 +1,16 @@
+.parent .child {
+    float: right;
+}
+
+span {
+    /* width: 100px; */
+}
+
+span::after {
+    content: "\f054";
+}
+
+/*  Not Working because  Specificity */
+.child {
+    /* float: right; */
+}

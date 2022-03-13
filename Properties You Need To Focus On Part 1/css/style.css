@@ -1,0 +1,44 @@
+/*  Properties You Need To Focus on  */
+/* 
+--- margin
+--- padding
+--- border-radius
+--- pseudot elements [ before | after]
+--- border 
+
+*/
+
+div h3 {
+    /* Reset Margin */
+    margin: 0;
+    left: 0;
+}
+
+.first-div,
+.second-div {
+    background-color: #1e90ff;
+    color: #fff;
+    width: 60%;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 20px auto;
+    /* margin-left: auto; */
+    /* border-radius: 0 20px 20px 0; */
+    position: relative;
+}
+
+.first-div::after {
+    content: "";
+    position: absolute;
+    border: 10px solid;
+    border-color: transparent transparent transparent #1e90ff;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -20px;
+}
+
+.second-div {
+    border: 4px solid red;
+    border-width: 0 0 0 4px;
+}

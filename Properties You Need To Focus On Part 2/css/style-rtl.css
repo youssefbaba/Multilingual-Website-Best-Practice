@@ -1,0 +1,12 @@
+.first-div {
+    /* margin-left: 0; */
+    /* margin-right: auto; */
+    /* border-radius: 20px 0 0 20px; */
+    box-shadow: -10px 10px 10px #ccc;
+}
+
+.second-div {
+    transform: rotate(-20deg);
+    left: auto;
+    right: 40px;
+}

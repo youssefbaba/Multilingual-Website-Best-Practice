@@ -1,0 +1,22 @@
+/* Problems And Solution Part 1 */
+/* 
+-- don't start with arabic design 
+    - start of default language and direction (En , ltr) for web 
+-- programmers note :  don't use words direct in template 
+-- padding and margin  for parent better than child 
+
+
+*/
+
+
+div {
+    background-color: #333;
+    color: #fff;
+    padding: 0 10px;
+}
+
+div h3 {
+    /* Reset Margin */
+    margin: 0;
+    /* margin-left: 10px; */
+}

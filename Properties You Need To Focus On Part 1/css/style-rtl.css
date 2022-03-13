@@ -1,0 +1,15 @@
+.first-div {
+    /* margin-left: 0; */
+    /* margin-right: auto; */
+    /* border-radius: 20px 0 0 20px; */
+}
+
+.first-div::after {
+    border-color: transparent #1e90ff transparent transparent;
+    right: auto;
+    left: -20px;
+}
+
+.second-div {
+    border-width: 0 4px 0 0;
+}

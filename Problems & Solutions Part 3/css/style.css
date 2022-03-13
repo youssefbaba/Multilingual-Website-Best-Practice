@@ -1,0 +1,66 @@
+/* Problems And Solution Part 3 */
+/* 
+--  don't forget Comments and ordering of elements 
+--  Use Inline-Block Instead Float If You Don't need Float
+--  Rtl file is for direction  only
+--  Rtl file after main file  
+
+*/
+
+div h3 {
+    /* Reset Margin */
+    margin: 0;
+    left: 0;
+}
+
+.parent {
+    /* display: flex; */
+    /* display: grid; */
+    /* grid-template-columns: repeat(4, 1fr); */
+}
+
+.parent .child {
+    background-color: #ddd;
+    width: 25%;
+    height: 100px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.tags .tag {
+    background-color: dodgerblue;
+    height: 30px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border: 3px solid red;
+    border-width: 0 0 0 3px;
+}
+
+.clear {
+    clear: both;
+}
+
+/* Start Header */
+header {
+    /* Css Code */
+}
+
+header nav {
+    /* Css Code */
+}
+
+header nav ul {
+    /* Css Code */
+}
+
+/* End Header */
+/* Start Landing  */
+.landing {
+    /* Css Code */
+}
+
+.landing h1 {
+    /* Css Code */
+}
+
+/* End Landing  */

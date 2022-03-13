@@ -1,0 +1,17 @@
+/*  Amazing Features To Help You  */
+/* 
+    -- tag <bdi> </bdi>
+    -- attribute dir=[auto]
+    -- text-align[start|end] 
+*/
+
+div h3 {
+    /* Reset Margin */
+    margin: 0;
+    left: 0;
+}
+
+.test {
+    /* text-align: start; */
+    text-align: end;
+}
